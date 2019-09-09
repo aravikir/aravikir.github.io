@@ -64,7 +64,7 @@ ul.posts li {
     color: black;
 }
 .main_colour {
-    color: #333;
+    color: #999;
 }
 .fa-envelope-square:hover {
     color: crimson;
@@ -82,4 +82,10 @@ ul.posts li {
 .construction_message {
     font: italic;
     font-size: 1.5rem;
+}
+header {
+    font-size: 2rem;
+}
+.headerpadding {
+    padding: 0 2rem; /*padding syntax: x-axis, y-axis*/
 }
