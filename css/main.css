@@ -1,3 +1,7 @@
+html {
+    text-align: center;
+    padding: 0;
+}
 body {
     margin: 60px auto;
     width: 70%;
@@ -40,7 +44,7 @@ p2 {
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
-    text-align: center
+    text-align: center;
 }
 
 ul.posts { 
