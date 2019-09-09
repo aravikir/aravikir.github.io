@@ -40,6 +40,7 @@ p2 {
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
+    text-align: center
 }
 
 ul.posts { 
@@ -49,4 +50,32 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+}
+
+.fa-linkedin:hover{
+    color: dodgerblue;
+}
+
+.fa-github:hover {
+    color: black;
+}
+.main_colour {
+    color: #333;
+}
+.fa-envelope-square:hover {
+    color: crimson;
+}
+
+.icon_size {
+    font-size: 3rem;
+}
+.fa-file-pdf:hover {
+    color: crimson
+}
+.gif {
+    height: 5rem;
+}
+.construction_message {
+    font: italic;
+    font-size: 1.5rem;
 }
