@@ -2,6 +2,14 @@ html {
     text-align: center;
     padding: 0;
 }
+.skillspage {
+    text-align: left;
+    padding: 0;
+}
+.cvpage {
+    text-align: left;
+    padding: 0;
+}
 body {
     margin: 60px auto;
     width: 70%;
@@ -28,7 +36,7 @@ h1 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 h2 {
-    font-size: 2.5em;
+    font-size: 2em;
     font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 }
 p1 {
