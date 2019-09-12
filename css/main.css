@@ -58,6 +58,7 @@ footer {
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
+    color: #333
 }
 
 ul.posts li {
@@ -96,4 +97,17 @@ header {
 }
 .headerpadding {
     padding: 0 2rem; /*padding syntax: x-axis, y-axis*/
+}
+.columns{
+    list-style-type: disc;
+    -webkit-columns: 3;
+    -moz-columns: 3;
+    columns: 3;
+    list-style-position: inside; //this is important addition
+}
+ul{
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: #333;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
 }
