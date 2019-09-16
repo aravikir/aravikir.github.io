@@ -1,7 +1,7 @@
 html {
     text-align: left;
     padding: 0;
-    background-color: darkcyan;
+    background-color: #87ceeb;
 }
 .skillspage {
     text-align: left;
@@ -27,7 +27,7 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: #d5d5d5
 }
 a:hover {
     text-decoration: underline;
@@ -56,9 +56,29 @@ p3 {
     color: black
 }
 footer {
-    border-top: 1px solid #d5d5d5;
+    border-top: 1px solid white;
     font-size: .8em;
     text-align: center;
+}
+header {
+    position:absolute;
+   left:0;   
+    height: 5rem;
+    top: 0;
+    display: block; 
+    width: 100%;
+    background-color: #333;
+}
+.navHeader {
+    position: absolute;
+    list-style-type: none;
+    left:0;
+    margin: 0;
+    /* padding: 0; */
+    overflow: hidden;
+    padding-top: 2rem;    
+    margin-left: 15%;
+    
 }
 
 ul.posts { 
@@ -72,14 +92,14 @@ ul.posts li {
 }
 
 .fa-linkedin:hover{
-    color: midnightblue
+    color: #0077B5
 }
 
 .fa-github:hover {
     color: black;
 }
 .main_colour {
-    color: #d5d5d5;
+    color: white;
 }
 .fa-envelope-square:hover {
     color: crimson;
@@ -99,7 +119,7 @@ ul.posts li {
     font-size: 1.5rem;
 }
 .headerpadding {
-    padding: 0 2rem; /*padding syntax: x-axis, y-axis*/
+    /* padding: 0 2rem; padding syntax: x-axis, y-axis */
     font-size: 2rem;
 }
 .columns{
@@ -131,4 +151,8 @@ ul{
 }
 .fa-copyright {
     color: black;
+}
+
+.content{
+    padding-top: 2rem;
 }
