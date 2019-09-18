@@ -156,3 +156,9 @@ ul{
 .content{
     padding-top: 2rem;
 }
+hr {
+    display: block;
+    border-style: solid;
+    border-width: 2px;
+    color: black;
+}
